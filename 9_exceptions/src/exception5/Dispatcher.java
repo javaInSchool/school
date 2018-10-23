@@ -16,7 +16,7 @@ class Parent{
     }
 }
 class Child extends Parent{
-    void create(File f) throws IOException { //compile error
+    void create(File f) {//throws IOException { //compile error
         super.create(f);
         System.out.println(f.length());
     }
