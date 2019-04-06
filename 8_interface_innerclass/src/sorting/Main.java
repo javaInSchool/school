@@ -33,6 +33,29 @@ public class Main {
         for (Car temp: c){
             System.out.println(temp.toString());
         }
+
+        Arrays.sort(c, new Car.ComparatorBySpeed());//static nested class
+
+        Arrays.sort(c, new Comparator<Car>() { //anonymous class
+            @Override
+            public int compare(Car o1, Car o2) {
+                int temp = o1.speed - o2.speed;
+                if (temp == 0) {
+                    return o1.price - o2.price;
+                } else {
+                    return temp;
+                }
+            }
+        });
+
+        Arrays.sort(c, (o1, o2) -> {
+            int temp = o1.speed - o2.speed;
+            if (temp == 0) {
+                return o1.price - o2.price;
+            } else {
+                return temp;
+            }
+        });
     }
 }
 class Car implements Comparable{
@@ -59,6 +82,12 @@ class Car implements Comparable{
 //            return temp;
 //        }
         return this.model.compareTo(   (  (Car)o  ).model   );
+    }
+    static class ComparatorBySpeed implements Comparator {
+        @Override
+        public int compare(Object o1, Object o2) {
+            return ((Car)o1).speed - ((Car)o2).speed;
+        }
     }
 }
 
