@@ -9,7 +9,7 @@ public class Main {
         int a = 3; // числа каждый задает свои
         int b = 2;
         int c = 6;
-        if (a*b == c){
+        if (a*b > c){
             System.out.println("ДА");
         }else {
             System.out.println("НЕТ");
