@@ -1,3 +1,4 @@
+package _9_exceptions.exception2;
 public class Dispatcher {
     public static void main(String[] args) {
         int x = 7;

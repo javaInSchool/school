@@ -1,3 +1,5 @@
+package _9_exceptions.exception6;
+
 public class Dispatcher {
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-package example2;
+package _4_array.example2;
 
 public class Main {
     public static void main(String[] args) {

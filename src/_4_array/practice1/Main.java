@@ -1,4 +1,4 @@
-package practice1;
+package _4_array.practice1;
 
 public class Main {
     public static void main(String[] args) {

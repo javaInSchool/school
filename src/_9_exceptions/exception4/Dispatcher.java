@@ -1,3 +1,5 @@
+package _9_exceptions.exception4;
+
 import java.io.*;
 public class Dispatcher {
     public static void main(String[] args) {

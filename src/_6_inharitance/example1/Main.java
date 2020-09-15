@@ -1,4 +1,4 @@
-package example1;
+package _6_inharitance.example1;
 
 public class Main {
     public static void main(String[] args) {

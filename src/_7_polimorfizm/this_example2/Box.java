@@ -1,4 +1,4 @@
-package this_example2;
+package _7_polimorfizm.this_example2;
 
 public class Box {
     int height;

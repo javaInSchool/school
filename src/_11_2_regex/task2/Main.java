@@ -1,3 +1,4 @@
+package _11_2_regex.task2;
 public class Main {
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder("В русском тексте " +

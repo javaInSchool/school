@@ -1,4 +1,4 @@
-package practice3;
+package _7_polimorfizm.practice3;
 
 public class Main {
     public static void main(String[] args) {

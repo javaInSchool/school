@@ -1,6 +1,6 @@
-package example1;
+package _6_inharitance.example1;
 
-import example2.Animal;
+import _6_inharitance.example2.Animal;
 
 public class Dog extends Animal {
     String breed;

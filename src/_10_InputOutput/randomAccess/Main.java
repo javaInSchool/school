@@ -1,3 +1,4 @@
+package _10_InputOutput.randomAccess;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 

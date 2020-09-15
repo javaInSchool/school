@@ -1,3 +1,5 @@
+package _9_exceptions.task6;
+
 public class Dispatcher{
     public static void main(String[] args) throws Exception{
         // напишите ваш код тут

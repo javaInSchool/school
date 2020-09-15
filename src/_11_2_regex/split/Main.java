@@ -1,3 +1,4 @@
+package _11_2_regex.split;
 import java.util.regex.Pattern;
 
 public class Main {
