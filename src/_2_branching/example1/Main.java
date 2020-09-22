@@ -1,4 +1,4 @@
-package example1;
+package _2_branching.example1;
 import java.io.*;
 import java.util.Scanner;
 
