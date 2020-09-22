@@ -1,4 +1,4 @@
-package javaFX.simpleSceneBuilder.src.sample;
+package javaFX.simpleSceneBuilder;
 
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
@@ -15,14 +15,12 @@ public class Controller implements Runnable{
     int levelValue = 1;
     double levelUpCost = 5;
 
-    public void getProfit(ActionEvent actionEvent) {
+    public void getProfit() {
         scoreValue = scoreValue + profitValue;
         score.setText("Your score: "+ String.format( "%.2f",scoreValue));
-        //profit.setText("profit: " + String.format( "%.2f",profitValue));
-        System.out.println(scoreValue + " " + profitValue);
     }
 
-    public void getLevelUp(ActionEvent actionEvent) {
+    public void getLevelUp() {
         if (scoreValue >= levelUpCost) {
             scoreValue = scoreValue-levelUpCost;                                // decrease score
             score.setText("Your score: "+String.format( "%.2f", scoreValue));   // set new score
@@ -39,7 +37,7 @@ public class Controller implements Runnable{
         }
     }
 
-    public void hire(ActionEvent actionEvent) {
+    public void hire() {
         Thread t = new Thread(this);
         t.start(); // this will call run() function
     }
@@ -47,18 +45,15 @@ public class Controller implements Runnable{
     @Override
     public void run() {
         while(true) {
-            System.out.println(Thread.currentThread().getName() + " " +levelValue);
             scoreValue = scoreValue + profitValue;
-            System.out.print(scoreValue);
-
             //unknown how does it work
             Platform.runLater(new Runnable(){
                 @Override
                 public void run() {
-                    score.setText("Your score: " + String.format( "%.2f",scoreValue));
+                    score.setText("Your score: "
+                            + String.format( "%.2f",scoreValue));
                 }
             });
-
             try {
                 Thread.sleep(1000);
             } catch (Exception e) {

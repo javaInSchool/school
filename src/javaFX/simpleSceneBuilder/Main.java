@@ -1,4 +1,4 @@
-package javaFX.simpleSceneBuilder.src.sample;
+package javaFX.simpleSceneBuilder;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
