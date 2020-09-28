@@ -21,7 +21,7 @@ public class Main {
         }
 
         // Not, and , or
-        boolean a = true;
+        boolean a = true; // false
         boolean b = true;
 
         System.out.println(!a); // ! - not
