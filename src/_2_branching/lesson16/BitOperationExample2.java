@@ -1,6 +1,6 @@
-package example4;
+package _2_branching.lesson16;
 
-public class Main {
+public class BitOperationExample2 {
     public static void main(String[] args) {
         int x = 6; //  0000 0110
         int y = 2; //  0000 0010

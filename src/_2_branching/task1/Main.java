@@ -1,4 +1,4 @@
-package task1;
+package _2_branching.task1;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        Scanner in = new Scanner(new File("src/task1/input.txt"));
+        Scanner in = new Scanner(new File("src/_2_branching/task1/input.txt"));
         char x = in.next().charAt(0);
         System.out.println(x);
 

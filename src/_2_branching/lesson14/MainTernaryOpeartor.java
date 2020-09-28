@@ -1,6 +1,6 @@
-package example2;
+package _2_branching.lesson14;
 
-public class Main {
+public class MainTernaryOpeartor {
     public static void main(String[] args) {
         int y = 5;
         int x = 7;
