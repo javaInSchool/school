@@ -45,7 +45,7 @@ public class Main {
             pw.close();
         }
 
-        //check fie length
+        //check file length
         System.out.println(f.length());
 
         f.renameTo(new File("C:/data/inputNew.txt"));
