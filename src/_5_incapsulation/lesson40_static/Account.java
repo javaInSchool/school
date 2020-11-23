@@ -1,4 +1,4 @@
-package objects;
+package _5_incapsulation.lesson40_static;
 
 public class Account {
     String name;

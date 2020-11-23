@@ -1,9 +1,10 @@
 package _5_incapsulation.lesson41;
 
 public class Main {
-    int x;
+    int x, z;
     static int y;
     public static void main(String[] args) {
+        //System.out.println(z); //compile error, z - not static, class instance needed
         int x = 7;
         for (int i = 0; i < 5; i++) {
 

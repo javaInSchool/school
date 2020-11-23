@@ -1,4 +1,4 @@
-package _5_incapsulation.projects;
+package _5_incapsulation.lesson38_hw1;
 
 public class Dispatcher {
     public static void main(String[] args) {

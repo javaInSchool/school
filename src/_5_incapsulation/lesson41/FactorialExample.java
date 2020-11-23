@@ -1,6 +1,6 @@
-package mainArgs;
+package _5_incapsulation.lesson41;
 
-public class Main {
+public class FactorialExample {
     public static void main(String[] args) {
         System.out.println(factorial(4));
     }
