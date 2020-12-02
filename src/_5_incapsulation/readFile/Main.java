@@ -1,4 +1,4 @@
-package readFile;
+package _5_incapsulation.readFile;
 
 import java.io.*;
 import java.util.Scanner;

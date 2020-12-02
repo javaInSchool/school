@@ -1,6 +1,6 @@
-package api_string;
+package _5_incapsulation.lesson45_API_String;
 
-public class Main {
+public class IndexOfExampleFindSymbolIndex {
     public static void main(String[] args) {
         String text = "To Sherlock Holmes she is always the woman. I have seldom heard him " +
                 "mention her under any other name. In his eyes she eclipses and " +
