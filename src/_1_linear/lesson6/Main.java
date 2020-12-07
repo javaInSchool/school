@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         int x = 5;
         int y = 9;
+        int z = x + y;
         System.out.println("x = " + x);
         String name = "Oleh";
         String surname = "Horbach";
