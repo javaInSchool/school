@@ -1,8 +1,6 @@
 package _6_inharitance.lesson56;
 
-import _6_inharitance.lesson54.Creature;
-
-public class Animal extends Creature {
+public class Animal {
     public int age;
     public String name;
 }
