@@ -10,56 +10,8 @@ package java7.practice2;
         a = 5; b = 3; c = 9;   NO
  */
 
-
-
-
-
-
-
-
-
-
 public class Main {
     public static void main(String[] args) {
-        int a = 5;
-        int b = 4;
-        int c = 3;
-        if(a + b > c) {
-            if(b + c > a){
-                if(a + c > b){
-                    System.out.println("YES");
-                }else{
-                    System.out.println("NO");
-                }
-            }else{
-                System.out.println("NO");
-            }
-        }else{
-            System.out.println("NO");
-        }
+
     }
 }
-
-
-
-
-
-
-/*
-        int a = 5;
-        int b = 4;
-        int c = 3;
-        if(a + b > c) {
-            if(b + c > a){
-                if(a + c > b){
-                    System.out.println("YES");
-                }else{
-                    System.out.println("NO");
-                }
-            }else{
-                System.out.println("NO");
-            }
-        }else{
-            System.out.println("NO");
-        }
- */

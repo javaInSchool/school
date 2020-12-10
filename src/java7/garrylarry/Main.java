@@ -1,4 +1,4 @@
-package java7.dataTypes;
+package java7.garrylarry;
 
 public class Main {
     public static void main(String[] args) {
