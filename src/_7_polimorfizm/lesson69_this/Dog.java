@@ -1,4 +1,4 @@
-package _7_polimorfizm.lesson69;
+package _7_polimorfizm.lesson69_this;
 
 public class Dog {
     String name;
