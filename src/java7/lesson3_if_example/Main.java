@@ -1,4 +1,4 @@
-package java7.if_example;
+package java7.lesson3_if_example;
 /*
 Дано два числа А и B, написать программу, которая будет выводить
 знак > , когда А больше B
