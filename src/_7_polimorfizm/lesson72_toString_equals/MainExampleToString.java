@@ -1,4 +1,4 @@
-package _7_polimorfizm.lesson71;
+package _7_polimorfizm.lesson72_toString_equals;
 
 public class MainExampleToString {
     public static void main(String[] args) {
