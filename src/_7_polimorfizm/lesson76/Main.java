@@ -8,14 +8,7 @@ public class Main {
         final int n = setN(5);
         //n = 6;        //compile error
 
-        final Dog myDog = new Dog(10);
-        myDog.name = "Rex";
-        myDog.name = "Sharik";
-        //myDog = new Dog(11); //compile error
-
-        int n2 = (int)Double.NEGATIVE_INFINITY;
-
-        int n3 = n;
+        int n3 = n; //final можна присвоїти у іншу змінну, без проблем
 
     }
     static int setN(int i){
