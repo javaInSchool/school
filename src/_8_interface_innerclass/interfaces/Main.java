@@ -1,4 +1,4 @@
-package interfaces;
+package _8_interface_innerclass.interfaces;
 
 public class Main {
     public static void main(String[] args) {
