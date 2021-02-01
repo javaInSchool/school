@@ -12,6 +12,11 @@ public class Dog {
     }
 
     @Override
+    public String toString() {
+        return "my Dog " + name;
+    }
+
+    @Override
     public boolean equals(Object o){
         //System.out.println(name);
         boolean result;

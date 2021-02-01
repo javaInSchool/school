@@ -1,4 +1,4 @@
-package java7.lesson3_if_example;
+package java7.structure_prog.lesson3_if_example;
 /*
 Дано три числа a,b,c.
 Вивести повідомлення YES, якщо a * b = c, інакше вивести NO

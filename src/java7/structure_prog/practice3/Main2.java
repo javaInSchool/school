@@ -1,4 +1,4 @@
-package java7.practice3;
+package java7.structure_prog.practice3;
 /*
 2. Катя з'їдає 2 пиріжки в день. Кожен наступний день
 вона їсть на 1 пиріжок більше.

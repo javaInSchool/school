@@ -1,4 +1,4 @@
-package java7.lesson4_if_task;
+package java7.structure_prog.lesson4_if_task;
 
 import java.util.Scanner;
 public class Main{

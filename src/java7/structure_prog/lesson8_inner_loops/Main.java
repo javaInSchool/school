@@ -1,4 +1,4 @@
-package java7.lesson8_inner_loops;
+package java7.structure_prog.lesson8_inner_loops;
 
 public class Main {
     public static void main(String[] args) {

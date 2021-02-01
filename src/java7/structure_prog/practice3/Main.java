@@ -1,4 +1,4 @@
-package java7.practice3;
+package java7.structure_prog.practice3;
 /*
 1. Вивести на екран власне прізвище 20 раз
  */

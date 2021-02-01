@@ -1,4 +1,4 @@
-package java7.garrylarry;
+package java7.structure_prog.garrylarry;
 
 public class Main {
     public static void main(String[] args) {

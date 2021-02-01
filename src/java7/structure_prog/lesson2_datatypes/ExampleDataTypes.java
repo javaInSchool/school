@@ -1,4 +1,4 @@
-package java7.lesson2_datatypes;
+package java7.structure_prog.lesson2_datatypes;
 
 public class ExampleDataTypes {
     public static void main(String[] args) {

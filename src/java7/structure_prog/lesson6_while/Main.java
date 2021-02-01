@@ -1,4 +1,4 @@
-package java7.lesson6_while;
+package java7.structure_prog.lesson6_while;
 
 public class Main{
     public static void main(String[] args) {

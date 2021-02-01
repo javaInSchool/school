@@ -1,4 +1,4 @@
-package java7.practice2;
+package java7.structure_prog.practice2;
 /*
 Дано длинна трех отрезков: a, b, c.
 Можно ли построить по этим отрезкам треуголльник?
