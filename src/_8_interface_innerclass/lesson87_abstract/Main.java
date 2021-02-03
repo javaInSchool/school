@@ -5,5 +5,7 @@ public class Main {
         //Animal a = new Animal();
         Animal ad = new Dog();
         Cat c = new Cat();
+        ad.say();
+        c.say();
     }
 }
