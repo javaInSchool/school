@@ -1,4 +1,4 @@
-package object_oriented_prog.lesson5;
+package java7.object_oriented_prog.lesson5;
 
 public class Main {
     public static void main(String[] args) {
