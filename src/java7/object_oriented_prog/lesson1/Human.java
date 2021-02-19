@@ -1,4 +1,4 @@
-package object_oriented_prog.lesson1;
+package java7.object_oriented_prog.lesson1;
 
 public class Human {
     double weight;

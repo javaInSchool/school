@@ -1,4 +1,4 @@
-package object_oriented_prog.lesson3;
+package java7.object_oriented_prog.lesson3;
 
 public class Main {
     int number;
@@ -15,8 +15,7 @@ public class Main {
         return result;
     }
     //second method
-    double calculateDouble(double a
-            , double b){
+    double calculateDouble(double a, double b){
         return a - b;
     }
 }

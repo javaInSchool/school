@@ -5,8 +5,7 @@ public class Main {
         int x = 5;
         int y = 9;
         Calculator c = new Calculator();
-
-        int result = c.add(x,y);
+        int result = c.add(5,9);
         System.out.println(result);
 
         result = c.sub(9,3);

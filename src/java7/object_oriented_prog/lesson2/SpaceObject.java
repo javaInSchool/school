@@ -1,4 +1,4 @@
-package object_oriented_prog.lesson2;
+package java7.object_oriented_prog.lesson2;
 
 public class SpaceObject {
     double size;

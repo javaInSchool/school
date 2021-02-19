@@ -1,4 +1,4 @@
-package object_oriented_prog.lesson1;
+package java7.object_oriented_prog.lesson1;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,5 +16,7 @@ public class Main {
         person2.name = "Kolya";
 
         System.out.println(person1.name);
+
+        House h = new House();
     }
 }
