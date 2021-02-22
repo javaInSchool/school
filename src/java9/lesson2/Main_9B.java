@@ -1,8 +1,9 @@
+package java9.lesson2;
 import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
 
-public class Main{
+public class Main_9B{
 	public static void main(String[] args) throws FileNotFoundException {
 	    Scanner in = new Scanner( new File("input.txt") );
 	    String data = in.nextLine();
