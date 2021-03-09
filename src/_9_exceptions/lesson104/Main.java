@@ -26,11 +26,12 @@ public class Main {
         //file.createNewFile();
     }
 
-    static void divide (int a, int b){
+    static void divide (int a, int b) {
         try{
             System.out.println(a / b);
         }catch(ArithmeticException ae){
             System.out.println("Divide by 0");
+            throw ae;
         }
     }
 
