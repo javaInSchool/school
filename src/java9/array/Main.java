@@ -3,7 +3,7 @@ package java9.array;
 public class Main {
     public static void main(String[] args) {
         int x = 6;
-        int[] array = {-5,8,3,9,0,-455};
+        int[] array = {-5,8,3,9,0,-455,7};
         System.out.println(array[1]);
         System.out.println(array.length);
 
@@ -31,9 +31,12 @@ public class Main {
         for (int i = 0, n = array1.length; i < n; i++) {
             array2[i] = array1[i] + 1;
         }
+
         for (int i = 0, n = array2.length; i < n; i++) {
             System.out.print(array2[i] + " ");
         }
+
+
 
     }
 }
