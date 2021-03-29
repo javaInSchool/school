@@ -1,7 +1,8 @@
 package _10_InputOutput.lesson111;
 
-import javax.swing.*;
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -61,8 +62,9 @@ public class Main {
             out = new FileOutputStream(
                     "src/_10_InputOutput/lesson111/output.txt");
             int c;
-            while( (c = in.read() ) != -1){
+            while( (c = in.read() ) != -1 ){
                 out.write(c);
+                System.out.print(c+" "); // 1010 1010 - 127,   //4b = 32bit - 1010 1010 1010 1010 1010 1010 1010 1010
             }
         }finally {
             if (in != null){
