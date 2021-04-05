@@ -52,7 +52,5 @@ public class Main {
 
         f.renameTo(new File("C:/data2/input.txt"));
 
-
-
     }
 }
