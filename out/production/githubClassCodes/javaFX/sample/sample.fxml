@@ -4,7 +4,9 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.text.Font?>
 
-<GridPane alignment="center" hgap="10" minHeight="120" minWidth="120" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<GridPane alignment="center" hgap="10" minHeight="120" minWidth="120" vgap="10"
+          fx:controller="javaFX.sample.Controller"
+          xmlns:fx="http://javafx.com/fxml">
       <Label fx:id="text" text="Hello, world!" GridPane.rowIndex="0">
          <font>
             <Font name="Times New Roman" size="20.0" />
