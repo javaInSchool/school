@@ -19,9 +19,9 @@ public class Main {
         }
 
         System.out.println(myNewCat);
-
     }
 }
+
 class Cat implements Externalizable{
     public String name;
     public int age;
@@ -29,19 +29,15 @@ class Cat implements Externalizable{
 
     @Override
     public String toString() {
-        return "Cat{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                ", weight=" + weight +
-                '}';
+        return "Cat{name='" + name + '\'' + ", age=" + age + ", weight=" + weight + '}';
     }
 
+    public Cat(){}
     public Cat(String name, int age, int weight) {
         this.name = name;
         this.age = age;
         this.weight = weight;
     }
-    public Cat(){}
 
     @Override
     public void writeExternal(ObjectOutput out) throws IOException {
