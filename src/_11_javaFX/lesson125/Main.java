@@ -1,4 +1,4 @@
-package _11_javaFX.lesson123;
+package _11_javaFX.lesson125;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
