@@ -1,0 +1,12 @@
+.root{
+    -fx-background-color: yellow;
+}
+.button{
+    -fx-background-color: lightgreen;
+}
+.label{
+    -fx-font-size: 20;
+}
+#result{
+    -fx-font-family: 'Times New Roman';
+}
