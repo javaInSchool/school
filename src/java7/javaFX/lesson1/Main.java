@@ -1,4 +1,4 @@
-package java7.javaFX;
+package java7.javaFX.lesson1;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
