@@ -8,7 +8,7 @@
 
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="_11_javaFX.lesson130.Tree"
+            fx:controller="_11_javaFX.lesson130.newLife"
             prefHeight="400.0" prefWidth="600.0">
 
 </AnchorPane>

@@ -20,4 +20,9 @@ public class Controller {
 
         result.setText(result.getText() + volume);
     }
+    @FXML
+    public void closeWindow(){
+        System.exit(0);
+    }
+
 }

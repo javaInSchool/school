@@ -26,7 +26,7 @@ public class Controller {
             @Override
             public void handle(ActionEvent actionEvent) {
                 FXMLLoader loader = new FXMLLoader();
-                loader.setLocation(getClass().getResource("treeBank.fxml"));
+                loader.setLocation(getClass().getResource("newLife.fxml"));
                 try {
                     loader.load();
                 } catch (IOException e) {}

@@ -1,5 +1,6 @@
 package javaFX.autoStartMedia;
-
+//https://github.com/yaBobJonez/Sch3SAP
+//Переглянути код учня
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

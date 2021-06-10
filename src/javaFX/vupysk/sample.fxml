@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaFX.vupysk.Controller">
+   <children>
+            <Label fx:id="header" prefHeight="75.0" prefWidth="500.0" text="Знову помилка..." wrapText="true" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="10.0">
+               <font>
+                  <Font name="Times New Roman" size="34.0" />
+               </font>
+               <padding>
+                  <Insets bottom="10.0" left="150.0" top="20.0" />
+               </padding>
+            </Label>
+            <Label prefHeight="75.0" prefWidth="500.0" text="Не бійся помилок та не натискай кнопку &quot;Здатися&quot;, навіть якщо дуже просять!" textAlignment="CENTER" wrapText="true" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="100.0">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#goExit" prefHeight="100.0" prefWidth="300.0" text="Здатися!" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="200.0" />
+            <Button mnemonicParsing="false" onAction="#onceMore" prefHeight="70.0" prefWidth="200.0" text="Спробувати ще раз!" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="200.0" />
+            <Button fx:id="goToNewLife" disable="true" mnemonicParsing="false" onAction="#toNewLife" prefHeight="30.0" prefWidth="200.0" text="І ще раз!" textAlignment="CENTER" wrapText="true" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="270.0" />
+      <Label fx:id="result" layoutX="216.0" layoutY="369.0" prefHeight="200.0" prefWidth="500.0" text=" " textAlignment="CENTER" wrapText="true" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="320.0">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+         </children>
+      </AnchorPane>

@@ -8,15 +8,15 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         BigInteger n = null; // byte - 8, short - 16, int - 32, long - 64
-        while(true){
+        while(true) {
             System.out.println("Введите целое число: ");
-            String text = in.nextLine();
             try {
+                String text = in.nextLine();
                 n = new BigInteger( text );
                 break;
             }catch(InputMismatchException | NumberFormatException e){
                 System.out.println("Не верный ввод, повторите");
-            }finally {
+            }finally{
                 System.out.println("ввод закончен...");
             }
         }

@@ -1,17 +1,24 @@
-package _11_javaFX.lesson130;
+package javaFX.cursorTest;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Cursor;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-//--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml
+
 public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Розрахунок депозиту");
-        primaryStage.setScene(new Scene(root, 500, 500));
+        primaryStage.setTitle("Cursor");
+        Scene scene = new Scene(root, 400, 300);
+        // create a cursor
+        Cursor cursor_ = Cursor.cursor("WAIT");
+
+        // set cursor for the scene
+        scene.setCursor(cursor_);
+        primaryStage.setScene(scene);
         primaryStage.show();
     }
     public static void main(String[] args) {
